@@ -1,6 +1,5 @@
 //
 //  ofx1plus1is2Eq.h
-//  ofx1plus1is2Example
 //
 //  Created by ISHII 2bit on 2014/12/29.
 //
