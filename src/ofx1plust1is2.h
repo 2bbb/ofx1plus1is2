@@ -24,7 +24,7 @@ public:
         // s(+(s(0), 0) == s(s(0))
         Eq<Suc<Add<Suc<Zero>, Zero> >, Suc<Suc<Zero> > > proof3 = Axiom::PA::suc(proof2);
         
-        // +(s0), s(0)) == s(s(0))
+        // +(s(0), s(0)) == s(s(0))
         Eq<Add<Suc<Zero>, Suc<Zero> >, Suc<Suc<Zero> > > proof1plus1is2 = Axiom::Equality::transitive(proof1, proof3);
     }
     
